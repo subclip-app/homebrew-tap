@@ -3,8 +3,12 @@
 Install [AI Video Editor by Subclip](https://www.subclip.app/) on macOS (Apple silicon) with Homebrew:
 
 ```sh
+brew tap subclip-app/tap
+brew trust --cask subclip-app/tap/subclip
 brew install --cask subclip-app/tap/subclip
 ```
+
+Recent Homebrew versions load casks from third-party taps only after `brew trust`.
 
 The app updates itself. `brew upgrade --cask subclip` also works.
 

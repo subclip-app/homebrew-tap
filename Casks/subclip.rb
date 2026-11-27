@@ -15,7 +15,7 @@ cask "subclip" do
 
   auto_updates true
   depends_on arch: :arm64
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "AI Video Editor by Subclip.app"
   binary "#{appdir}/AI Video Editor by Subclip.app/Contents/MacOS/AI Video Editor by Subclip", target: "subclip"
