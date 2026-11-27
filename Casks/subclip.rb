@@ -2,8 +2,7 @@ cask "subclip" do
   version "1.0.51"
   sha256 "31e3c923f8f4968008a02e8dfabdb9572b31dcee938842f484117974678eb8c9"
 
-  url "https://subclipweb.subclip.app/desktop/ai-video-editor/releases/#{version}/AI-Video-Editor-by-Subclip-#{version}-arm64.dmg",
-      verified: "subclipweb.subclip.app/desktop/ai-video-editor/"
+  url "https://subclipweb.subclip.app/desktop/ai-video-editor/releases/#{version}/AI-Video-Editor-by-Subclip-#{version}-arm64.dmg"
   name "AI Video Editor by Subclip"
   desc "AI video editor with a local MCP server for AI agents"
   homepage "https://www.subclip.app/"
