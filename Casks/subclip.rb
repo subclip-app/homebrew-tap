@@ -1,6 +1,6 @@
 cask "subclip" do
-  version "1.0.51"
-  sha256 "31e3c923f8f4968008a02e8dfabdb9572b31dcee938842f484117974678eb8c9"
+  version "1.0.52"
+  sha256 "191464e0294985ba21dd902c6a67671e3ca1aebb2cbb70bdbac79c61483281ba"
 
   url "https://subclipweb.subclip.app/desktop/ai-video-editor/releases/#{version}/AI-Video-Editor-by-Subclip-#{version}-arm64.dmg"
   name "AI Video Editor by Subclip"
